@@ -1,0 +1,75 @@
+name: wowgen61
+
+options:
+  bundleIdPrefix: org.reactjs.native.example
+  deploymentTarget:
+    iOS: "9.0"
+  usesTabs: false
+  indentWidth: 2
+
+targets:
+  wowgen61:
+    type: application
+    platform: iOS
+    sources: [wowgen61]
+    scheme:
+      parallelizeBuild: false
+    preBuildScripts:
+      - name: Start Packager
+        script: |
+          export RCT_METRO_PORT="${RCT_METRO_PORT:=8081}"
+          echo "export RCT_METRO_PORT=${RCT_METRO_PORT}" > "${SRCROOT}/../node_modules/react-native/scripts/.packager.env"
+          if [ -z "${RCT_NO_LAUNCH_PACKAGER+xxx}" ] ; then
+            if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then
+              if ! curl -s "http://localhost:${RCT_METRO_PORT}/status" | grep -q "packager-status:running" ; then
+                echo "Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly"
+                exit 2
+              fi
+            else
+              open "$SRCROOT/../node_modules/react-native/scripts/launchPackager.command" || echo "Can't start packager automatically"
+            fi
+          fi
+        showEnvVars: false
+    postBuildScripts:
+      - name: Bundle React Native code and images
+        script: |
+          export NODE_BINARY=node
+          ../node_modules/react-native/scripts/react-native-xcode.sh
+
+  wowgen61Tests:
+    type: bundle.unit-test
+    platform: iOS
+    sources: [wowgen61Tests]
+
+  wowgen61-tvOS:
+    type: application
+    platform: tvOS
+    sources: [wowgen61, wowgen61-tvOS]
+    scheme:
+      parallelizeBuild: false
+    preBuildScripts:
+      - name: Start Packager
+        script: |
+          export RCT_METRO_PORT="${RCT_METRO_PORT:=8081}"
+          echo "export RCT_METRO_PORT=${RCT_METRO_PORT}" > "${SRCROOT}/../node_modules/react-native/scripts/.packager.env"
+          if [ -z "${RCT_NO_LAUNCH_PACKAGER+xxx}" ] ; then
+            if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then
+              if ! curl -s "http://localhost:${RCT_METRO_PORT}/status" | grep -q "packager-status:running" ; then
+                echo "Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly"
+                exit 2
+              fi
+            else
+              open "$SRCROOT/../node_modules/react-native/scripts/launchPackager.command" || echo "Can't start packager automatically"
+            fi
+          fi
+        showEnvVars: false
+    postBuildScripts:
+      - name: Bundle React Native code and images
+        script: |
+          export NODE_BINARY=node
+          ../node_modules/react-native/scripts/react-native-xcode.sh
+
+  wowgen61-tvOSTests:
+    type: bundle.unit-test
+    platform: tvOS
+    sources: [wowgen61Tests]
