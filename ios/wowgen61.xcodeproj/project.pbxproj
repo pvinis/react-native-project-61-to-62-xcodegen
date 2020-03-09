@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,18 +12,18 @@
 		58B67C45C342AA1BC105D1333D2DA95B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91F94C2EDC129D7C9CDEE4ED117D2D6D /* LaunchScreen.xib */; };
 		6DCEF62CF804A3398D5638A14AAB8564 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A0728CD6A26359DCC1B9E2EDBC1C18 /* AppDelegate.m */; };
 		7A180A46FF933219C4FC2737A994C062 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21769987A8BFB9840E8AA15401FE3F00 /* Images.xcassets */; };
+		E78DA6787592A0E8CFD155067F6251E1 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = B01F8B123E38FF06E8A15DD60CE3F58C /* main.jsbundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		21769987A8BFB9840E8AA15401FE3F00 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = wowgen61/Images.xcassets; sourceTree = "<group>"; };
-		47A0728CD6A26359DCC1B9E2EDBC1C18 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = wowgen61/AppDelegate.m; sourceTree = "<group>"; };
-		590632B116A37A55A91801665C50CFF7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = wowgen61/main.m; sourceTree = "<group>"; };
-		5BEC27273511740A7D44E2032010F31C /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		21769987A8BFB9840E8AA15401FE3F00 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		47A0728CD6A26359DCC1B9E2EDBC1C18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		590632B116A37A55A91801665C50CFF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		674277ED78DAA19A67F95FB7AEE34425 /* Pods-wowgen61.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wowgen61.debug.xcconfig"; path = "Target Support Files/Pods-wowgen61/Pods-wowgen61.debug.xcconfig"; sourceTree = "<group>"; };
-		689057CB719BCDBE775394FA0184AC02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CC5E2DBF31583A8D551F2FC3314BA821 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = wowgen61/Info.plist; sourceTree = "<group>"; };
-		DA3458605599D749EBAAEAF45CF84506 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = wowgen61/AppDelegate.h; sourceTree = "<group>"; };
-		DCE7947A1CBFAFFC97AB261B3281DEB2 /* wowgen61.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wowgen61.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B01F8B123E38FF06E8A15DD60CE3F58C /* main.jsbundle */ = {isa = PBXFileReference; path = main.jsbundle; sourceTree = "<group>"; };
+		CC5E2DBF31583A8D551F2FC3314BA821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DA3458605599D749EBAAEAF45CF84506 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DCE7947A1CBFAFFC97AB261B3281DEB2 /* wowgen61.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = wowgen61.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF357FF3DF854CF4FB60077FB13539B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F10813F0B43E7057A4E013C2912DAF4D /* libPods-wowgen61.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wowgen61.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE8522C6A3C3DA37F8A0F6C95F208845 /* Pods-wowgen61.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wowgen61.release.xcconfig"; path = "Target Support Files/Pods-wowgen61/Pods-wowgen61.release.xcconfig"; sourceTree = "<group>"; };
@@ -49,10 +49,9 @@
 				21769987A8BFB9840E8AA15401FE3F00 /* Images.xcassets */,
 				CC5E2DBF31583A8D551F2FC3314BA821 /* Info.plist */,
 				91F94C2EDC129D7C9CDEE4ED117D2D6D /* LaunchScreen.xib */,
-				5BEC27273511740A7D44E2032010F31C /* main.jsbundle */,
 				590632B116A37A55A91801665C50CFF7 /* main.m */,
 			);
-			name = wowgen61;
+			path = wowgen61;
 			sourceTree = "<group>";
 		};
 		32A09287057CFAFDB0C5F8EFAB09E686 /* Products */ = {
@@ -67,7 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				E5E3CDB1B0DC32984D133ACEDD36A77E /* Frameworks */,
-				88CA0D28BDFA4C2277A6898A4BAAA5BF /* Libraries */,
+				B01F8B123E38FF06E8A15DD60CE3F58C /* main.jsbundle */,
 				AF166AD887AE0D785309DE6EC4436681 /* Pods */,
 				32A09287057CFAFDB0C5F8EFAB09E686 /* Products */,
 				1C8563EFDAB0F24639E1D2118DC2358B /* wowgen61 */,
@@ -77,34 +76,19 @@
 			tabWidth = 2;
 			usesTabs = 0;
 		};
-		88CA0D28BDFA4C2277A6898A4BAAA5BF /* Libraries */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Libraries;
-			sourceTree = "<group>";
-		};
-		AD699297DDEF41F93403542BF5942E74 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				689057CB719BCDBE775394FA0184AC02 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		AF166AD887AE0D785309DE6EC4436681 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				674277ED78DAA19A67F95FB7AEE34425 /* Pods-wowgen61.debug.xcconfig */,
 				FE8522C6A3C3DA37F8A0F6C95F208845 /* Pods-wowgen61.release.xcconfig */,
 			);
+			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		E5E3CDB1B0DC32984D133ACEDD36A77E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AB44BE3D260A94BB98ABA47B0F7A7312 /* JavaScriptCore.framework */,
 				F10813F0B43E7057A4E013C2912DAF4D /* libPods-wowgen61.a */,
 			);
 			name = Frameworks;
@@ -120,9 +104,9 @@
 				4831F1F0CC4C906392C1FA14CDE49522 /* [CP] Check Pods Manifest.lock */,
 				E6CCDC7CD40A5E6FE246F6807407B1F7 /* Start Packager */,
 				F58C691DB45B301EBDFD608DEE38ED47 /* Sources */,
-				ED5DB2AD831E97CB909AC9ADB4E87A62 /* Frameworks */,
 				9E1DE7CA63F89E65CB861D7577A82550 /* Resources */,
-				9D7A2EFA83B9DE507931B744E51926B2 /* Bundle React Native code and images */,
+				6AB6AF872DD6F3EA96CF0396758E09A5 /* Bundle React Native code and images */,
+				ED5DB2AD831E97CB909AC9ADB4E87A62 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -139,16 +123,15 @@
 		5A451495D304B7260505D65788DE3B58 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
-				ORGANIZATIONNAME = Facebook;
+				LastUpgradeCheck = 1020;
+				TargetAttributes = {
+				};
 			};
 			buildConfigurationList = 47F731CC4E08629790CCAB228EAC9867 /* Build configuration list for PBXProject "wowgen61" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
-				en,
 				Base,
 			);
 			mainGroup = 653166D26B12646CB537E8E4185546BD;
@@ -168,6 +151,7 @@
 			files = (
 				7A180A46FF933219C4FC2737A994C062 /* Images.xcassets in Resources */,
 				58B67C45C342AA1BC105D1333D2DA95B /* LaunchScreen.xib in Resources */,
+				E78DA6787592A0E8CFD155067F6251E1 /* main.jsbundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,19 +180,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9D7A2EFA83B9DE507931B744E51926B2 /* Bundle React Native code and images */ = {
+		6AB6AF872DD6F3EA96CF0396758E09A5 /* Bundle React Native code and images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+			);
 			inputPaths = (
 			);
 			name = "Bundle React Native code and images";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
 		E6CCDC7CD40A5E6FE246F6807407B1F7 /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -250,7 +238,6 @@
 				DF357FF3DF854CF4FB60077FB13539B2 /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = wowgen61;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -261,18 +248,21 @@
 			baseConfigurationReference = 674277ED78DAA19A67F95FB7AEE34425 /* Pods-wowgen61.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 1;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEAD_CODE_STRIPPING = NO;
 				INFOPLIST_FILE = wowgen61/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = wowgen61;
-				VERSIONING_SYSTEM = "apple-generic";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -280,6 +270,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -290,6 +282,7 @@
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
@@ -301,10 +294,11 @@
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -317,7 +311,10 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -326,6 +323,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -336,6 +335,7 @@
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
@@ -347,10 +347,11 @@
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -358,8 +359,8 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
 					"$(inherited)",
+					"DEBUG=1",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -371,7 +372,11 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -380,17 +385,20 @@
 			baseConfigurationReference = FE8522C6A3C3DA37F8A0F6C95F208845 /* Pods-wowgen61.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 1;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = wowgen61/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = wowgen61;
-				VERSIONING_SYSTEM = "apple-generic";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

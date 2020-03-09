@@ -1,0 +1,61 @@
+name: wowgen61
+
+options:
+  deploymentTarget:
+    iOS: "9.0"
+  usesTabs: false
+  indentWidth: 2
+  tabWidth: 2
+  defaultConfig: Release
+
+settings:
+  base:
+    GCC_C_LANGUAGE_STANDARD: gnu99
+    CLANG_CXX_LANGUAGE_STANDARD: gnu++0x
+  configs:
+    Debug:
+      COPY_PHASE_STRIP: false
+      GCC_SYMBOLS_PRIVATE_EXTERN: false
+      MTL_ENABLE_DEBUG_INFO: true
+    Release:
+      COPY_PHASE_STRIP: true
+      MTL_ENABLE_DEBUG_INFO: false
+
+targets:
+  wowgen61:
+    type: application
+    platform: iOS
+    sources: [wowgen61, main.jsbundle]
+    scheme:
+      parallelizeBuild: false
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)
+        OTHER_LDFLAGS:
+          - $(inherited)
+          - -ObjC
+          - -lc++
+      configs:
+        Debug:
+          DEAD_CODE_STRIPPING: false
+    preBuildScripts:
+      - name: Start Packager
+        script: |
+          export RCT_METRO_PORT="${RCT_METRO_PORT:=8081}"
+          echo "export RCT_METRO_PORT=${RCT_METRO_PORT}" > "${SRCROOT}/../node_modules/react-native/scripts/.packager.env"
+          if [ -z "${RCT_NO_LAUNCH_PACKAGER+xxx}" ] ; then
+            if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then
+              if ! curl -s "http://localhost:${RCT_METRO_PORT}/status" | grep -q "packager-status:running" ; then
+                echo "Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly"
+                exit 2
+              fi
+            else
+              open "$SRCROOT/../node_modules/react-native/scripts/launchPackager.command" || echo "Can't start packager automatically"
+            fi
+          fi
+        showEnvVars: false
+    postBuildScripts:
+      - name: Bundle React Native code and images
+        script: |
+          export NODE_BINARY=node
+          ../node_modules/react-native/scripts/react-native-xcode.sh

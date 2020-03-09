@@ -1,4 +1,4 @@
-#xcodegen generate
+xcodegen generate
 xunique -u wowgen61.xcodeproj
 xcodeproj sort
 
