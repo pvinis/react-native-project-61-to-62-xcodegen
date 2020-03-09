@@ -1,0 +1,7 @@
+#xcodegen generate
+xunique -u wowgen61.xcodeproj
+xcodeproj sort
+
+pod install
+xunique -u wowgen61.xcodeproj
+xcodeproj sort

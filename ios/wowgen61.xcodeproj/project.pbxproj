@@ -12,14 +12,14 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2B50F54E31D01F35317210D3 /* libPods-wowgen61-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9F01655E91EB9DF3290DD62 /* libPods-wowgen61-tvOS.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* wowgen61Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* wowgen61Tests.m */; };
-		44E68AD752969E7828A9A6EE /* libPods-wowgen61-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E2006A4789A91C75963FABA4 /* libPods-wowgen61-tvOSTests.a */; };
-		90AA5BE55FB50C52BD11F26B /* libPods-wowgen61Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3110156594E32B8EC981093A /* libPods-wowgen61Tests.a */; };
-		9EEE1ABC2BD7732912327B64 /* libPods-wowgen61.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1E68643CFE6F3A55FBA215 /* libPods-wowgen61.a */; };
+		2F5D5F2EEB3B5005F1578184 /* libPods-wowgen61-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E952147A9D66840C550BB9D /* libPods-wowgen61-tvOSTests.a */; };
+		49BF3C002086FA563FA70397 /* libPods-wowgen61.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F41A3DDF2D448D0235C5F9C /* libPods-wowgen61.a */; };
+		A6448DF1A15EF9588BEA319A /* libPods-wowgen61-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A2AAE8C5D7D467BDA88F450 /* libPods-wowgen61-tvOS.a */; };
+		E86F4A34AA1A8FC4BE927FB1 /* libPods-wowgen61Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D29458909740BC073182C1 /* libPods-wowgen61Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,20 +51,20 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = wowgen61/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = wowgen61/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = wowgen61/main.m; sourceTree = "<group>"; };
-		16BCA819043868CD1F0D996A /* Pods-wowgen61-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wowgen61-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-wowgen61-tvOSTests/Pods-wowgen61-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1A584954A39E82D0EBF92D84 /* Pods-wowgen61-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wowgen61-tvOS.release.xcconfig"; path = "Target Support Files/Pods-wowgen61-tvOS/Pods-wowgen61-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		23C12A74DCD24624290C01CA /* Pods-wowgen61-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wowgen61-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-wowgen61-tvOS/Pods-wowgen61-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* wowgen61-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wowgen61-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* wowgen61-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wowgen61-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		30B5B99CF5E5DA9DACC4ED1A /* Pods-wowgen61Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wowgen61Tests.release.xcconfig"; path = "Target Support Files/Pods-wowgen61Tests/Pods-wowgen61Tests.release.xcconfig"; sourceTree = "<group>"; };
-		30F879F33066CE0B6F80A17C /* Pods-wowgen61.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wowgen61.debug.xcconfig"; path = "Target Support Files/Pods-wowgen61/Pods-wowgen61.debug.xcconfig"; sourceTree = "<group>"; };
-		3110156594E32B8EC981093A /* libPods-wowgen61Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wowgen61Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6259A902077F9024121187C5 /* Pods-wowgen61-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wowgen61-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-wowgen61-tvOSTests/Pods-wowgen61-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		6B0DBFAD97D3B9D5BCE096C8 /* Pods-wowgen61.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wowgen61.release.xcconfig"; path = "Target Support Files/Pods-wowgen61/Pods-wowgen61.release.xcconfig"; sourceTree = "<group>"; };
-		AF1E68643CFE6F3A55FBA215 /* libPods-wowgen61.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wowgen61.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D33AC0D5E6A74F03ABEE3C90 /* Pods-wowgen61-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wowgen61-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-wowgen61-tvOS/Pods-wowgen61-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		D37F18F75BBDBAA89986A4F7 /* Pods-wowgen61Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wowgen61Tests.debug.xcconfig"; path = "Target Support Files/Pods-wowgen61Tests/Pods-wowgen61Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D9F01655E91EB9DF3290DD62 /* libPods-wowgen61-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wowgen61-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCB6905F9C215E6E5C558C1F /* Pods-wowgen61-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wowgen61-tvOS.release.xcconfig"; path = "Target Support Files/Pods-wowgen61-tvOS/Pods-wowgen61-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		E2006A4789A91C75963FABA4 /* libPods-wowgen61-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wowgen61-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E952147A9D66840C550BB9D /* libPods-wowgen61-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wowgen61-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B7362C907DA64440A5EA42E /* Pods-wowgen61-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wowgen61-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-wowgen61-tvOSTests/Pods-wowgen61-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		4DC16E21148F811BB6DEC346 /* Pods-wowgen61-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wowgen61-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-wowgen61-tvOSTests/Pods-wowgen61-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4FA3B6976314AFA3E9E2979C /* Pods-wowgen61.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wowgen61.debug.xcconfig"; path = "Target Support Files/Pods-wowgen61/Pods-wowgen61.debug.xcconfig"; sourceTree = "<group>"; };
+		6A2AAE8C5D7D467BDA88F450 /* libPods-wowgen61-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wowgen61-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94D29458909740BC073182C1 /* libPods-wowgen61Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wowgen61Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95FE44A05E65FB85D0264DF6 /* Pods-wowgen61Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wowgen61Tests.debug.xcconfig"; path = "Target Support Files/Pods-wowgen61Tests/Pods-wowgen61Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9E39F4982DA0C64E15D030CC /* Pods-wowgen61.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wowgen61.release.xcconfig"; path = "Target Support Files/Pods-wowgen61/Pods-wowgen61.release.xcconfig"; sourceTree = "<group>"; };
+		9F41A3DDF2D448D0235C5F9C /* libPods-wowgen61.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wowgen61.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0DCA6E429EA486F41A88A33 /* Pods-wowgen61Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wowgen61Tests.release.xcconfig"; path = "Target Support Files/Pods-wowgen61Tests/Pods-wowgen61Tests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90AA5BE55FB50C52BD11F26B /* libPods-wowgen61Tests.a in Frameworks */,
+				E86F4A34AA1A8FC4BE927FB1 /* libPods-wowgen61Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EEE1ABC2BD7732912327B64 /* libPods-wowgen61.a in Frameworks */,
+				49BF3C002086FA563FA70397 /* libPods-wowgen61.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B50F54E31D01F35317210D3 /* libPods-wowgen61-tvOS.a in Frameworks */,
+				A6448DF1A15EF9588BEA319A /* libPods-wowgen61-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44E68AD752969E7828A9A6EE /* libPods-wowgen61-tvOSTests.a in Frameworks */,
+				2F5D5F2EEB3B5005F1578184 /* libPods-wowgen61-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,15 +136,31 @@
 			name = wowgen61;
 			sourceTree = "<group>";
 		};
+		2238ED8A64C3B8B38E60CBE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FA3B6976314AFA3E9E2979C /* Pods-wowgen61.debug.xcconfig */,
+				9E39F4982DA0C64E15D030CC /* Pods-wowgen61.release.xcconfig */,
+				23C12A74DCD24624290C01CA /* Pods-wowgen61-tvOS.debug.xcconfig */,
+				1A584954A39E82D0EBF92D84 /* Pods-wowgen61-tvOS.release.xcconfig */,
+				4DC16E21148F811BB6DEC346 /* Pods-wowgen61-tvOSTests.debug.xcconfig */,
+				3B7362C907DA64440A5EA42E /* Pods-wowgen61-tvOSTests.release.xcconfig */,
+				95FE44A05E65FB85D0264DF6 /* Pods-wowgen61Tests.debug.xcconfig */,
+				C0DCA6E429EA486F41A88A33 /* Pods-wowgen61Tests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				AF1E68643CFE6F3A55FBA215 /* libPods-wowgen61.a */,
-				D9F01655E91EB9DF3290DD62 /* libPods-wowgen61-tvOS.a */,
-				E2006A4789A91C75963FABA4 /* libPods-wowgen61-tvOSTests.a */,
-				3110156594E32B8EC981093A /* libPods-wowgen61Tests.a */,
+				9F41A3DDF2D448D0235C5F9C /* libPods-wowgen61.a */,
+				6A2AAE8C5D7D467BDA88F450 /* libPods-wowgen61-tvOS.a */,
+				2E952147A9D66840C550BB9D /* libPods-wowgen61-tvOSTests.a */,
+				94D29458909740BC073182C1 /* libPods-wowgen61Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -164,7 +180,7 @@
 				00E356EF1AD99517003FC87E /* wowgen61Tests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				E387EFCCBC51EC11AA80B23D /* Pods */,
+				2238ED8A64C3B8B38E60CBE9 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -182,22 +198,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E387EFCCBC51EC11AA80B23D /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				30F879F33066CE0B6F80A17C /* Pods-wowgen61.debug.xcconfig */,
-				6B0DBFAD97D3B9D5BCE096C8 /* Pods-wowgen61.release.xcconfig */,
-				D33AC0D5E6A74F03ABEE3C90 /* Pods-wowgen61-tvOS.debug.xcconfig */,
-				DCB6905F9C215E6E5C558C1F /* Pods-wowgen61-tvOS.release.xcconfig */,
-				16BCA819043868CD1F0D996A /* Pods-wowgen61-tvOSTests.debug.xcconfig */,
-				6259A902077F9024121187C5 /* Pods-wowgen61-tvOSTests.release.xcconfig */,
-				D37F18F75BBDBAA89986A4F7 /* Pods-wowgen61Tests.debug.xcconfig */,
-				30B5B99CF5E5DA9DACC4ED1A /* Pods-wowgen61Tests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -205,7 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "wowgen61Tests" */;
 			buildPhases = (
-				5C9180F5C9EDED78644152F5 /* [CP] Check Pods Manifest.lock */,
+				4B330D6CC8811C99C7E22C4D /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -224,7 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "wowgen61" */;
 			buildPhases = (
-				EB3D004F8F14E21963C9D9CC /* [CP] Check Pods Manifest.lock */,
+				3A092FD88C110FE5641B5B81 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
@@ -244,7 +244,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "wowgen61-tvOS" */;
 			buildPhases = (
-				AF7E77E4D378AC890B187512 /* [CP] Check Pods Manifest.lock */,
+				965D3F9699A97AE2B7C59FCA /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -264,7 +264,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "wowgen61-tvOSTests" */;
 			buildPhases = (
-				5E978B71E7E5A7FCD43E3F01 /* [CP] Check Pods Manifest.lock */,
+				6EA7CF2B571A1922C3C96CDA /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -387,7 +387,29 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		5C9180F5C9EDED78644152F5 /* [CP] Check Pods Manifest.lock */ = {
+		3A092FD88C110FE5641B5B81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wowgen61-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B330D6CC8811C99C7E22C4D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -409,7 +431,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5E978B71E7E5A7FCD43E3F01 /* [CP] Check Pods Manifest.lock */ = {
+		6EA7CF2B571A1922C3C96CDA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -431,7 +453,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AF7E77E4D378AC890B187512 /* [CP] Check Pods Manifest.lock */ = {
+		965D3F9699A97AE2B7C59FCA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -447,28 +469,6 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-wowgen61-tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EB3D004F8F14E21963C9D9CC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-wowgen61-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -580,7 +580,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D37F18F75BBDBAA89986A4F7 /* Pods-wowgen61Tests.debug.xcconfig */;
+			baseConfigurationReference = 95FE44A05E65FB85D0264DF6 /* Pods-wowgen61Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -603,7 +603,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 30B5B99CF5E5DA9DACC4ED1A /* Pods-wowgen61Tests.release.xcconfig */;
+			baseConfigurationReference = C0DCA6E429EA486F41A88A33 /* Pods-wowgen61Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -623,7 +623,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 30F879F33066CE0B6F80A17C /* Pods-wowgen61.debug.xcconfig */;
+			baseConfigurationReference = 4FA3B6976314AFA3E9E2979C /* Pods-wowgen61.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -643,7 +643,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B0DBFAD97D3B9D5BCE096C8 /* Pods-wowgen61.release.xcconfig */;
+			baseConfigurationReference = 9E39F4982DA0C64E15D030CC /* Pods-wowgen61.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -662,7 +662,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D33AC0D5E6A74F03ABEE3C90 /* Pods-wowgen61-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 23C12A74DCD24624290C01CA /* Pods-wowgen61-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -690,7 +690,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCB6905F9C215E6E5C558C1F /* Pods-wowgen61-tvOS.release.xcconfig */;
+			baseConfigurationReference = 1A584954A39E82D0EBF92D84 /* Pods-wowgen61-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -718,7 +718,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16BCA819043868CD1F0D996A /* Pods-wowgen61-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 4DC16E21148F811BB6DEC346 /* Pods-wowgen61-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -745,7 +745,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6259A902077F9024121187C5 /* Pods-wowgen61-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 3B7362C907DA64440A5EA42E /* Pods-wowgen61-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
